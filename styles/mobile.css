@@ -1,0 +1,164 @@
+body,
+input, textarea {
+	font-size: 14px;
+}
+
+header.container > nav .navbar-collapse,
+header.container > nav > div {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+header.container ul.navbar-right li > a,
+header.container > nav button i.fa.fa-bars.fa-2x {
+	color: #FFF;
+}
+
+main.container ul.prod-cards li.list-group-item {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+main.container ul.prod-cards li.item-name-origin,
+main.container ul.prod-cards li.item-desc {
+    height: inherit;	
+}
+
+div#main-right .wine-types a > div {
+    width: 100%;
+}
+
+.coming-soon-pg .row .msg-img img,
+.coming-soon-pg .row .msg-txt div {
+	width: 200px;
+}
+
+.lost-pw-link, 
+.reg-link {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.err-msg {
+	margin-top: 40px;
+}
+
+#search-wine {
+	margin-top: 0;		
+}
+
+#search-wine input {
+	width: 100%;
+}
+
+div#footer-left,
+div#footer-right {
+	text-align: center;
+}
+
+.user-info {
+	width: 100%;
+}
+
+.wine-title > * {
+    max-width: 325px;
+}
+
+.wine-image img {
+	max-width: 300px;
+	width: 85%;
+}
+
+#wineModal {
+	margin-top: initial;
+}
+
+#wineModal .modal-dialog,
+#checkoutModal .modal-dialog {
+    max-width: 400px;
+    width: 97%;
+    margin: 5px auto;		
+}	
+
+#wineModal .wine-heading {
+	padding: 0;
+}
+
+#wineModal .wine-heading > div,
+#wineModal .wine-heading > div + div {
+	text-align: center;
+}
+
+.wine-info {
+	padding: 20px;
+}
+
+.add-to-cart a.btn-info,
+.add-to-cart button.btn-success {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.add-to-cart button.btn-success {
+	margin-top: 20px;
+}
+
+.wine-admin > * {
+	padding: 0 20px;
+	margin: 10px 0;
+}
+
+.wine-admin > .wine-edit,
+.wine-admin > .wine-delete {
+	text-align: center;
+}
+
+.shopping-cart {
+	max-width: 300px;
+	width: 100%;
+}
+
+.cart-image img {
+	margin-top: 0;
+	max-width: 300px;
+	width: 100%;
+}
+
+.cart-info {
+	text-align: center;
+}
+
+.total-scn {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.total-amt {
+	text-align: center;
+}
+
+.cart-alert {
+	text-align: center;
+}
+
+.checkout-page form div.panel {
+	max-width: 300px;
+	width: 100%;
+}
+
+div.items .col-md-8 {
+	padding: 0;
+}
+
+#add-wine {
+	margin: 5px;
+}
+
+.form-group > label {
+    padding-left: 0;
+}
+
+.form-group > div {
+    padding-left: 0;
+    padding-right: 0;
+}

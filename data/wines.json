@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Raeburn Chardonnay 2014",
+        "image": "raeburn-chardonnay.jpg",
+        "origin": "Russian River, Sonoma County, California",
+        "desc": "The Raeburn Russian River Valley Chardonnay shows an array of complex fruit tones ranging from white pear and apple to nectarine. The fruit is beautifully complemented with toasted oak, vanilla and hints of warm creme brulee with a balanced and elegant finish.",
+        "price": "15.99"
+    },
+    {
+        "name": "Kendall-Jackson Vintner's Reserve Chardonnay 2015",
+        "image": "kendall-jackson-chard.jpg",
+        "origin": "San Francisco, California",
+        "desc": "Beautifully integrated tropical flavors such as pineapple, mango, and papaya with citrus notes that explode in your mouth. These flavors delicately intertwine with aromas of vanilla and honey to create depth and balance throughout. A hint of toasted oak and butter rounds out the long, lingering finish.",
+        "price": "13.00"
+    },
+    {
+        "name": "Henriot Brut Souverain",
+        "image": "henriot_brut_soverain.jpg",
+        "origin": "Champagne, France",
+        "desc": "A beautiful gold color. The bubbles are persistent, fine and regular. The nose is pleasant, made very elegant by the large amount of Chardonnay. The Brut Souverain is sharp, well balanced and harmonious on the palate.",
+        "price": "40.00"
+    },
+    {
+        "name": "Kim Crawford Sauvignon Blanc 2015",
+        "image": "kim-crawford.png",
+        "origin": "Marlborough, New Zealand",
+        "desc": "Light straw with yellow and green hues. Aromas of citrus and tropical fruits backed by characteristic herbaceous notes for which Marlborough Sauvignon Blanc is renowned. An exuberant wine brimming with juicy acidity and fruit sweetness, providing a balanced flavour profile. The finish is fresh, zesty, and lingering.",
+        "price": "15.99"
+    },
+    {
+        "name": "Robert Oatley Signature Cabernet Sauvignon 2015",
+        "image": "robert-oatley.jpg",
+        "origin": "Margaret River, Australia",
+        "desc": "Bob Oatley's mantra is that all wines should be a \"darned good drink\", and the high quality Signature Series delivers immediate appeal, with satisfying flavors over an elegant frame. This wine is a full-flavored yet finely structured Cabernet of great appeal: black berries, dried leaves and fine gravelly tannin, reflect an outstanding year.",
+        "price": "15.99"
+    },
+    {
+        "name": "La Marca Prosecco",
+        "image": "lamarca-prosecco.jpeg",
+        "origin": "Veneto, Italy",
+        "desc": "This sparkling wine is a pale, golden straw in color. Bubbles are full textured and persistent. On the nose the wine brings fresh citrus with hints of honey and white flowers. The flavor is fresh and clean, with ripe citrus, lemon, green apple, and touches of grapefruit, minerality, and some toast. The finish is light, refreshing, and crisp.",
+        "price": "13.99"
+    }
+]

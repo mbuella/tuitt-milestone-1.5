@@ -1,0 +1,9 @@
+/*desktops*/
+@import url('../styles/desktop.css');
+
+
+/*tablets*/
+@import url('../styles/tablet.css') only screen and (max-width: 992px);
+
+/*mobiles*/
+@import url('../styles/mobile.css') only screen and (max-width: 768px);

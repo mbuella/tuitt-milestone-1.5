@@ -1,0 +1,125 @@
+body,
+input, textarea {
+	font-size: 12.5px;
+}
+
+main.container div#main-left h3,
+main.container div#main-right h3 {
+	text-align: center;
+}
+
+main.container div#main-right {
+	width: 90%;
+	margin: 20px 0 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+div#main-right .wine-types {
+	text-align: center;
+}
+
+div#main-right .wine-types a > div {
+    width: 50%;
+    float: left;
+    background-position: middle;
+}
+
+.coming-soon-pg .row .msg-img,
+.coming-soon-pg .row .msg-txt {
+	text-align: center;
+}
+
+.coming-soon-pg .row .msg-txt div {
+	width: 300px;
+	margin: 0 auto;
+}
+
+footer.container div.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.signup-image {
+	margin-top: 23px;
+}
+
+.user-info {
+	width: 90%;
+}
+
+.user-info img {		
+	margin: 0 20px 20px;
+}
+
+#wineModal {
+	margin-top: 20%;
+}
+
+#wineModal .modal-dialog {
+    width: 750px;
+}
+
+#checkoutModal .modal-dialog {
+	width: 500px;
+}
+
+.add-to-cart {
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.wine-image img {
+	margin-bottom: 0;
+}
+
+.wine-title > * {
+    max-width: 425px;
+}
+
+.wine-title > *,
+.wine-origin > * {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wine-origin {
+	padding-top: 8px;
+	padding-bottom: 15px;
+}
+
+.wine-desc {
+	margin: 0 auto;
+}
+
+.wine-desc h4 {
+	text-align: center;
+}
+
+.shopping-cart {
+	width: 450px;
+}
+
+.cart-item {
+	padding-top: 0;
+}
+
+.cart-item .cart-info {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.cart-item .wine-price {
+	text-align: center;
+}
+
+.cart-item .wine-price > * {
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 5px;
+}
+
+.checkout-page form div.panel {
+	max-width: 500px;
+}

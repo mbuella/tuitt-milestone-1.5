@@ -1,0 +1,42 @@
+[
+    {
+        "username": "jdlcruz",
+        "firstname": "Juan",
+        "lastname": "dela Cruz",
+        "address": "Tondo, Manila",
+        "password": "8d2af28c2c499b8aeb71547ced95eec18ad2e570",
+        "role": "regular"
+    },
+    {
+        "username": "madlsantos",
+        "firstname": "Maria",
+        "lastname": "delos Santos",
+        "address": "Kawit, Cavite",
+        "password": "6db5cc61b7241b6e6a3e4026a5c8f2230a931a48",
+        "role": "regular"
+    },
+    {
+        "username": "mbuella",
+        "firstname": "Marlon",
+        "lastname": "Buella",
+        "address": "Proj. 4, Quezon City",
+        "password": "bd4cdf7b7518b6d5ed1744d35c373371226ec7e7",
+        "role": "admin"
+    },
+    {
+        "username": "panday",
+        "firstname": "",
+        "lastname": "",
+        "address": "",
+        "password": "78425c32ad78109b2b4aa7b799549c63868ddfc5",
+        "role": "regular"
+    },
+    {
+        "username": "manatee16",
+        "firstname": "",
+        "lastname": "",
+        "address": "",
+        "password": "b6120314269e12b126a805324e04763e291615fa",
+        "role": "regular"
+    }
+]

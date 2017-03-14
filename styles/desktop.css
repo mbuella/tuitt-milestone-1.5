@@ -1,0 +1,508 @@
+body {
+	background-color: #BC8F8F; /*Rosy brown*/
+	font-family: 'Montserrat', Arial;
+	font-size: 12px;
+}
+
+h1, h3, h4 {
+	font-family: 'Merriweather', Georgia;
+}
+
+input, button, a.btn, button.btn,
+input.btn, input.form-control {
+	border-radius: 0;
+}
+
+header.container,
+main.container,
+footer.container {
+	max-width: 1000px;
+	/*Can't set a custom border image*/
+}
+header.container > div,
+footer.container {
+	background-color: #c39b67;
+}
+
+header.container {
+	padding: 0;
+}
+
+header.container > div {
+	background-color: #c39b67;
+	text-align: center;
+}
+
+header.container > div img {
+	width: 250px;
+	margin: 0 auto;
+}
+
+header.container > nav {
+	border: 0;
+	margin-bottom: 0; 
+}
+
+/*
+	Set their padding to auto
+	when in tablet display and below
+*/
+header.container > nav .navbar-collapse,
+header.container > nav > div {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+header.container > nav > div {
+	background-color: #722f37;
+	font-size: 14px;
+}
+
+header.container > nav > div li a:hover {
+	color: #722f37;
+}
+
+header.container > nav ul.navbar-right {
+	margin-right: 0;
+}
+
+header.container ul.navbar-nav > li > a {
+	color: #FFF;	
+}
+
+header.container ul.navbar-right span.fa {
+	width: 20px;
+}
+
+main.container {
+	background-color: #C3B4A0;
+}
+
+main.container div#main-left {
+	height: auto;
+}
+
+div#main-left div.text-center {	
+	width: 100%;
+	display: block;
+}
+
+main.container div#main-left h3,
+main.container div#main-right h4 {
+	margin: 20px 0;
+}
+
+main.container div#main-left h3 {
+	margin-left: 10px;
+	margin-top: 25px;
+}
+
+div#main-right .wine-types a {
+	text-decoration: none;
+}
+
+div#main-right .wine-types a > div {
+	height: 100px;
+	/*background-color: lightblue;*/
+	text-align: right;
+	background-size: cover;
+	background-position: bottom;
+}
+
+div#main-right .wine-types a > div > div {
+	padding: 10px;
+	height: 100%;
+	opacity: 0.5;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#search-wine {
+	margin: 20px 0;
+}
+
+#search-wine input {
+	width: 60%;
+	float: right;
+}
+
+#search-wine button {
+	background: #fff;
+	border-left: 0;
+}
+
+#search-wine input:focus + button {
+    z-index: 3;   
+}
+
+#add-wine {
+	margin: 20px 40px;
+}
+
+main.container ul.prod-cards {
+	text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+main.container ul.prod-cards li {
+    padding: 10px;
+	/*background-color: #6b8f23,*/
+    box-shadow: 6px 6px 5px #2e3d0f;
+}
+main.container ul.prod-cards li.list-group-item {
+	background-color: #c2e184;
+	color: #2e3d0f;
+	border: none;
+}
+
+main.container ul.prod-cards li.item-img{
+	padding: 10px;
+}
+
+main.container ul.prod-cards li.item-name-origin {
+    height: 10em;	
+}
+
+main.container ul.prod-cards li.item-desc {
+    height: 7em;	
+}
+
+main.container div#main-right {
+	background-color: white;
+	color: #222;
+    width: 23%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 3px dashed brown;
+    margin-left: 0;
+	padding-bottom: 15px;
+}
+
+.coming-soon-pg .row .msg-img {
+	padding: 20px;
+	text-align: right;
+}
+
+.coming-soon-pg .row .msg-img img,
+.coming-soon-pg .row .msg-txt div {
+	width: 300px;
+}
+
+.coming-soon-pg .row .msg-txt {	
+	margin-top: 10%;
+}
+
+footer.container {
+	color: #222;
+	border-top: 3px solid #722f37;
+	padding: 10px 20px;
+}
+
+div#footer-left {
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+
+div#footer-right {
+	text-align: right;
+}
+
+div#social a {
+	text-decoration: none;
+}
+
+div#social i {
+	margin: 5px;
+	color: #222;
+}
+
+.wine-image {
+	padding: 0;
+}
+
+.wine-info {	
+    padding: 20px 40px 0;
+}
+
+.wine-image img {
+	margin: 20px;
+	width: 80%;
+	max-width: 400px;
+	border: 0;
+}
+
+.wine-desc {
+	padding: 0;
+}
+
+.wine-title > * {
+	margin: 40px 0;
+}
+
+.wine-origin {
+	padding-top: 40px;
+	font-style: italic;
+	color: #2F4F4F;
+}
+
+.wine-desc {
+	text-align: justify;
+	text-indent: 30px;
+	font-size: 1.20em;
+}
+
+.wine-desc h4 {
+	text-indent: 0;
+	margin: 20px 0;
+}
+
+#wineModal .modal-dialog {
+	width: 800px;
+}
+
+#wineModal .modal-body {
+	padding: 0;
+}
+
+#checkoutModal .modal-body {
+	padding: 20px;
+}
+
+#wineModal .wine-heading {
+	padding: 0 25px;
+}
+
+#wineModal .wine-heading > div {
+	padding: 0;
+}
+
+#wineModal .wine-heading > div + div {
+	text-align: right;
+}
+
+#wineModal .wine-heading > div > h3 {
+	margin: 10px 0;
+}
+
+#wineModal .loader {
+	margin: 50px;
+}
+
+.add-to-cart {
+	margin: 20px 0;/*
+	margin-left: 15px;
+	width: 380px;*/
+	border: 3px dashed;
+	padding: 0;
+	padding-top: 20px;
+}
+
+.add-to-cart > div > * {
+	font-size: 1.5em;
+	margin: 20px 10px;
+}
+
+.add-to-cart .input-num input {
+    width: 75px;
+	display: inline;
+}
+
+.shopping-cart {
+	width: 600px;
+	margin: 20px auto;
+}
+
+.cart-image img {
+	margin-top: 15px;
+}
+
+.cart-item {
+	padding: 10px;	
+}
+
+.cart-item .cart-info {
+	padding-top: 20px;
+}
+
+.cart-item .wine-price {
+	padding: 0;	
+	text-align: right;
+}
+
+.cart-item .wine-price > * {
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 30px;
+}
+
+.cart-item .wine-price > input {
+	width: 60px;
+	display: inline;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.cart-item .wine-price button[name='cart_remove'] {
+	margin-top: -6px;
+}
+
+.cart-empty {
+	float: right;
+}
+
+.total-amt {
+	text-align: right;
+}
+
+.signin-image,
+.signup-image {
+	padding: 0;
+}
+
+.signin-image img,
+.signup-image img {
+	width: 100%;
+}
+
+.form-signin,
+.form-signup {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signup .form-signup-heading,
+.form-signin .checkbox,
+.form-signup .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox,
+.form-signup .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control,
+.form-signup .form-control {
+	position: relative;
+	height: auto;
+	 -webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			 box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus,
+.form-signup .form-control:focus {
+	z-index: 2;
+}
+.form-signin input,
+.form-signup input {
+	margin-bottom: 10px;
+}
+.form-signup {
+    text-align: center;
+}
+
+.reg-link {
+	float: right;
+}
+
+.err-msg {
+	margin-top: 20px;
+}
+
+.err-msg > div {
+	margin-bottom: 0;
+}
+
+.user-info {
+	margin: 20px;
+	width: 70%;
+	margin: 20px auto;
+}
+
+.user-info img {
+	width: 150px;
+	margin: 0 20px 20px 10px;
+}
+
+.add-wine {
+	margin: 20px 0;
+}
+
+.wine-admin {
+	margin: 20px 0;
+}
+
+.wine-admin > * {
+	padding: 0 20px;
+}
+
+.wine-admin > .wine-edit {
+	text-align: right;
+}
+
+.wine-admin > .wine-delete {
+	text-align: left;
+}
+
+.empty-cart-msg {
+	text-align: center;
+	margin: 20px 0;
+	color: grey;
+}
+
+.checkout-page {
+	font-size: 13px;
+}
+
+.checkout-page form div.panel {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.checkout-page form div.panel-heading h4 {
+	margin: 15px 0;
+}
+
+.checkout-page > div.row {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.checkout-page table i.glyphicon {
+	width: 20px;
+	font-size: 15px;
+}
+
+.checkout-info table td > div {
+	margin-bottom: 8px;
+	line-height: 1.5em;
+}
+
+.checkout-confirm {
+	padding: 20px;
+	text-align: center;
+}
+
+.checkout-subtotal {
+	text-align: right;
+	font-weight: bold;
+}
+
+.checkout-subtotal > * {
+	margin-right: 10px;	
+}
+
+.checkout-success .row {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;	
+}
+
+.checkout-success .row a.btn {
+	margin-top: 20px;
+}
